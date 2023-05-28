@@ -1,0 +1,92 @@
+body{
+    background-image: url("../img/background-image.jpg") !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important; 
+    background-attachment: fixed !important;
+    font-family: cursive !important;
+}
+
+.empty-space{
+    padding-top: 50px;
+}
+
+.navbar-custom{
+    background-color: #ffdac0;
+}
+
+#navbar_brand_logo{
+    width: 200px; 
+    height: 50px;
+}
+
+.navbar-nav .active{
+    text-decoration: underline wavy !important;
+    background-color: #ffdac0 !important;
+    color: black !important;
+}  
+
+.dropdown-menu{
+    background-color: #FDFDF9 !important;
+}
+  
+.dropdown-item:hover{
+    background-color: #ffdac0 !important;
+}
+
+.dropdown-item:active{
+    background-color: #ffdac0 !important;
+    color: black !important;
+}
+
+#student_profile_pic_image{
+    height: 25px; 
+    width: 25px;
+    padding-bottom: 3px;
+}
+
+#row-1{
+    background-color: #ffdac0;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+#row-2{
+    background-color: #ffdac0;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+#footer-div{
+    background-color: #ffdac0;
+    padding-bottom: 15px; 
+    padding-top: 15px;
+}
+
+@media screen and (min-width: 414px){
+    table, th, td{
+        border: 2px solid black !important; 
+    }   
+}
+
+@media screen and (max-width: 413px) {
+    th, td{
+        border: 2px solid black !important; 
+    }
+    table{
+        display: block !important;
+        overflow-x: auto !important;
+    }
+}
+
+@media screen and (min-width: 992px){
+    #image-col{
+        padding-top: 47px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    #image-col{
+        padding-top: 15px;
+    }
+}

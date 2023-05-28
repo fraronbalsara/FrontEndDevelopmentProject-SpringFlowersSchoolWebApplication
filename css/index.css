@@ -1,0 +1,43 @@
+body{
+    background-image: url("../img/background-image.jpg") !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important; 
+    background-attachment: fixed !important;
+    font-family: cursive !important;
+}
+
+.empty-space{
+    padding-top: 50px;
+}
+
+#navbar_brand_logo{
+    width: 200px; 
+    height: 50px;
+}
+
+#background-div{
+    background-color: #ffdac0; 
+    border-radius:20px; 
+    padding: 30px 30px 15px 30px;
+}
+
+.form-class{
+    text-align: left;
+}
+
+#login-error{
+    margin-bottom: 20px;
+    color: red;
+    display: none;
+}
+
+.btn{
+    border: 2px solid black !important;
+}
+
+#footer-div{
+    background-color: #ffdac0;
+    padding-bottom: 15px; 
+    padding-top: 15px;
+}

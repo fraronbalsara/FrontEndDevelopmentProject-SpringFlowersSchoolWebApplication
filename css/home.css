@@ -1,0 +1,203 @@
+body{
+    background-image: url("../img/background-image.jpg") !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important; 
+    background-attachment: fixed !important;
+    font-family: cursive !important;
+}
+  
+.empty-space{
+    padding-top: 50px;
+}
+  
+.navbar-custom{
+    background-color: #ffdac0;
+}
+  
+#navbar_brand_logo{
+    width: 200px; 
+    height: 50px;
+}
+  
+/*ul.navbar-nav li:hover{
+      border-radius: 30px !important;
+      background-color: #ff90a8 !important;
+}*/
+  
+.navbar-nav .active{
+    text-decoration: underline wavy !important;
+}
+  
+.dropdown-menu{
+    background-color: #FDFDF9 !important;
+}
+  
+.dropdown-item:hover{
+    background-color: #ffdac0 !important;
+}
+  
+.dropdown-item:active{
+    background-color: #ffdac0 !important;
+    color: black !important;
+}
+  
+#student_profile_pic_image{
+    height: 25px; 
+    width: 25px;
+    padding-bottom: 3px;
+}
+  
+#school-title{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+  
+#school-image-about-us{
+    background-color: #ffdac0;
+    border-radius: 20px;
+    padding-top: 15px;
+}
+  
+#school-image-div{
+    padding-bottom: 30px;
+}
+  
+#school-image{
+    height: 100%; 
+    width: 100%; 
+    border-radius: 20px;
+}
+  
+#about-us{
+    padding-top: 10px; 
+    padding-bottom: 30px;
+}
+  
+#stats{
+    background-color: #ffdac0;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+  
+#why-study-here{
+    background-color: #ffdac0;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+  
+#our-achievements{
+    background-color: #ffdac0;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+  
+#demo{
+    background-color: #ffdac0;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+  
+.d-block{
+    max-height: 500px;
+}
+  
+#custom-list{
+    position: relative;
+    list-style: none;
+    padding-left: 32.5px;
+}
+  
+#custom-list li:before{
+    content: "\2192 \0020";
+    position: absolute;
+    left: 0;
+    padding-left: 12.5px;
+}
+  
+#testimonial-div{
+    background-color: #ffdac0;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+  
+blockquote::before{
+    content: "“";
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+  
+blockquote::after{
+    content: "”";
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+  
+.testimonial blockquote {
+    margin: 10px 10px 0;
+    background: #f4fafc;
+    padding: 20px 60px;
+    position: relative;
+    border: none;
+    border-radius: 8px;
+    font-style: italic;
+}
+  
+.testimonial blockquote:before,
+.testimonial blockquote:after {
+    content: "\201C";
+    position: absolute;
+    font-size: 80px;
+    line-height: 1;
+    color: #757f9a;
+    font-style: normal;
+}
+    
+.testimonial blockquote:before {
+    top: 0;
+    left: 10px;
+}
+  
+.testimonial blockquote:after {
+    content: "\201D";
+    right: 10px;
+    bottom: -0.5em;
+}
+  
+.testimonial div {
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #f4fafc;
+    margin: 0 0 0 60px;
+    bottom: -0.5em;
+}
+  
+.testimonial p {
+    margin: 8px 0 0 20px;
+    text-align: left;
+    color: #fff;
+}
+  
+.testimonial-owner{
+    margin-left: 15px;
+}
+  
+#footer-div{
+    background-color: #ffdac0;
+    padding-bottom: 15px; 
+    padding-top: 15px;
+}

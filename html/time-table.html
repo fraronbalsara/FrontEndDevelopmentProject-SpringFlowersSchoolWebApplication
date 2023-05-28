@@ -1,0 +1,175 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Time Table - Spring Flowers School</title>
+    <link rel="icon" type="image/png" href="../img/favicon.png">
+    <link rel="stylesheet" href="../css/time-table.css">
+    <link rel="stylesheet" href="../css/print.css" type="text/css" media="print">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+
+    <!--Bootstrap Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <!--Icon library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Button Scripts-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.22/pdfmake.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+    <script type="text/javascript" src="../js/time-table.js"></script>
+
+    <nav class="navbar navbar-custom navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand nav-link disabled" href="#">
+            <img id="navbar_brand_logo" src="../img/navbar_logo.png" class="img-fluid" alt="Spring Flower School Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="time-table.html">Time Table</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="exam-result.html">Exam Result</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="extracurricular-activities.html">Extracurricular Activities</a>
+              </li>
+            </ul>
+            
+            <!--- SEARCH BAR NOT REQUIRED FOR NOW
+            <form class="d-flex ms-auto" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            -->
+  
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="student-username">
+                  <img id="student_profile_pic_image" src="../img/profile_pic_icon.jpg">
+                  Student Name Placeholder
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+                  <li><a class="dropdown-item disabled" href="#">Change Password</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="index.html">Logout</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!--NAVBAR END-->
+
+    <div class="empty-space"></div>
+
+    <main class="container">
+
+      <!--TIME TBALE START-->
+      <div class="table-responsive text-center">
+        <h2>TIME TABLE</h2>
+        <table class="table print" id="time-table">
+          <thead class="table-primary">
+            <tr>
+              <th scope="col">Period/Time</th>
+              <th scope="col">Monday</th>
+              <th scope="col">Tuesday</th>
+              <th scope="col">Wednesday</th>
+              <th scope="col">Thursday</th>
+              <th scope="col">Friday</th>
+            </tr>
+          </thead>
+          <tbody class="table-secondary">
+            <tr>
+              <th scope="row" class="table-primary">1. 08:30-08:45</th>
+              <td colspan="5" class="text-center table-info">Assembly</td>
+            </tr>
+            <tr>
+              <th scope="row" class="table-primary">2. 08:45-09:45</th>
+              <td id="mon1">Science</td>
+              <td id="tue1">Political Science</td>
+              <td id="wed1">Geography</td>
+              <td id="thu1">Math</td>
+              <td id="fri1">English Literature</td>
+            </tr>
+            <tr>
+              <th scope="row" class="table-primary">3. 09:45-10:45</th>
+              <td id="mon2">Social Studies</td>
+              <td id="tue2">Information Technology</td>
+              <td id="wed2">Science</td>
+              <td id="thu2">Geography</td>
+              <td id="fri2">Political Science</td>
+            </tr>
+            <tr>
+              <th scope="row" class="table-primary">4. 10:45-11:00</th>
+              <td colspan="5" class="text-center table-info">Short Break</td>
+            </tr>
+            <tr>
+              <th scope="row" class="table-primary">5. 11:00-12:00</th>
+              <td id="mon3">Information Technology</td>
+              <td id="tue3">English Literature</td>
+              <td id="wed3">Math</td>
+              <td id="thu3">Art & Crafts</td>
+              <td id="fri3">Physical Education</td>
+            </tr>
+            <tr>
+              <th scope="row" class="table-primary">6. 12:00-13:00</th>
+              <td id="mon4">Math</td>
+              <td id="tue4">Math</td>
+              <td id="wed4">Political Science</td>
+              <td id="thu4">Social Studies</td>
+              <td id="fri4">Information Technology</td>
+            </tr>
+            <tr>
+              <th scope="row" class="table-primary">7. 13:00-13:30</th>
+              <td colspan="5" class="text-center table-info">Long Break</td>
+            </tr>
+            <tr>
+              <th scope="row" class="table-primary">8. 13:30-14:30</th>
+              <td id="mon5">Geography</td>
+              <td id="tue5">Science</td>
+              <td id="wed5">English Literature</td>
+              <td id="thu5">Physical Education</td>
+              <td id="fri5">Science</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!--BUTTONS START-->
+        <button class="btn" onclick="Download()"><i class="fa fa-download"></i> Download</button>
+        <button class="btn" onclick="window.print();return false;"><i class="fa fa-print"></i> Print</button>
+        <!--BUTTONS END-->
+        
+      </div>
+      <!--TIME TBALE END-->
+
+    </main>
+
+    <div class="empty-space"></div>
+    
+    <!--FOOTER START-->
+    <footer class="mt-auto">
+      <div id="footer-div" class="text-center">
+        Phone: (000)000-0000 | (000)000-0001
+        <br>Email: admissions@springflowers.com
+        <br>Location: 221B, Baker Street, London, United Kingdom
+        <br>2023 &#169 Spring Flowers School - Copyright All Rights Reserved
+      </div>
+    </footer>
+    <!--FOOTER END-->
+
+    <!--SETTING USERNAME-->
+    <script>document.getElementById("student-username").innerHTML = '<img id="student_profile_pic_image" src="../img/profile_pic_icon.jpg"> '.concat(sessionStorage.getItem("username"));</script>
+  
+  </body>  
+</html>

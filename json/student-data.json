@@ -1,0 +1,404 @@
+{
+    "student":[
+        {
+            "id":"0",
+            "username":"Fraron Balsara",
+            "password":"password",
+            "subjects_selection":[
+                {
+                    "subject1":"English Literature",
+                    "subject2":"Science",
+                    "subject3":"Math",
+                    "subject4":"Information Technology",
+                    "subject5":"Social Studies",
+                    "subject6":"Political Science",
+                    "subject7":"Geography"
+                }
+            ],
+            "time_table":[
+                {
+                    "mon1":"Science",
+                    "mon2":"Social Studies",
+                    "mon3":"Information Technology",
+                    "mon4":"Math",
+                    "mon5":"Geography",
+                    "tue1":"Political Science",
+                    "tue2":"Information Technology",
+                    "tue3":"English Literature",
+                    "tue4":"Math",
+                    "tue5":"Science",
+                    "wed1":"Geography",
+                    "wed2":"Science",
+                    "wed3":"Math",
+                    "wed4":"Political Science",
+                    "wed5":"English Literature",
+                    "thu1":"Math",
+                    "thu2":"Geography",
+                    "thu3":"Arts and Crafts",
+                    "thu4":"Social Studies",
+                    "thu5":"Physical Education",
+                    "fri1":"English Literature",
+                    "fri2":"Political Science",
+                    "fri3":"Physical Education",
+                    "fri4":"Information Technology",
+                    "fri5":"Science"
+                }
+            ],
+            "exam_results":[
+                {
+                    "English Literature":[{"marks":"78/100","grade":"A"}],
+                    "Science":[{"marks":"92/100","grade":"O"}],
+                    "Math":[{"marks":"96/100","grade":"O"}],
+                    "Information Technology":[{"marks":"91/100","grade":"O"}],
+                    "Social Studies":[{"marks":"82/100","grade":"A+"}],
+                    "Political Science":[{"marks":"76/100","grade":"A"}],
+                    "Geography":[{"marks":"81/100","grade":"A+"}],
+                    "Overall":[{"marks":"596/700","grade":"A+"}]
+                }
+            ],
+            "profile":[
+                {
+                    "my_name":"Fraron Balsara",
+                    "my_mobile":"(000)99999-99999",
+                    "my_email":"fraron.balsara@springflowers.com",
+                    "pm_name":"Milton Morris",
+                    "pm_mobile":"(000)88888-88888",
+                    "pm_email":"milton.morris03@springflowers.com",
+                    "gender":"Male",
+                    "dob":"21/01/2007",
+                    "nationality":"Indian",
+                    "current_address":"123-A, Wallace Apartments, Linkin Road, London, United Kingdom",
+                    "permanent_address":"102-B, Amar Complex, Banker Street, Mumbai, Maharashtra, India",
+                    "guardian_name":"Creed Mcintosh",
+                    "guardian_contact":"(000)77777-77777",
+                    "exchange_student":"Yes",
+                    "sin":"SIN1437653409",
+                    "class_name":"12-Alpha",
+                    "class_representative":"Carl Chapman",
+                    "subjects":"English Literature, Science, Math, Information Technology, Social Studies, Political Science, Geography",
+                    "doa":"14/06/2021"
+                }
+            ]
+        },
+        {
+            "id":"1",
+            "username":"Diana Prince",
+            "password":"wonderwoman",
+            "time_table":[
+                {
+                    "mon1":"English Literature",
+                    "mon2":"Geography",
+                    "mon3":"Religious Studies",
+                    "mon4":"Languages and Linguistics",
+                    "mon5":"Social Studies",
+                    "tue1":"Mandarin",
+                    "tue2":"Geography",
+                    "tue3":"Humanities",
+                    "tue4":"Languages and Linguistics",
+                    "tue5":"Religious Studies",
+                    "wed1":"English Literature",
+                    "wed2":"Geography",
+                    "wed3":"Mandarin",
+                    "wed4":"Arts and Crafts",
+                    "wed5":"Social Studies",
+                    "thu1":"Social Studies",
+                    "thu2":"Humanities",
+                    "thu3":"Languages and Linguistics",
+                    "thu4":"Religious Studies",
+                    "thu5":"Mandarin",
+                    "fri1":"Mandarin",
+                    "fri2":"English Literature",
+                    "fri3":"Humanities",
+                    "fri4":"Languages and Linguistics",
+                    "fri5":"Physical Education"
+                }
+            ],
+            "subjects_selection":[
+                {
+                    "subject1":"English Literature",
+                    "subject2":"Mandarin",
+                    "subject3":"Languages and Linguistics",
+                    "subject4":"Humanities",
+                    "subject5":"Social Studies",
+                    "subject6":"Religious Studies",
+                    "subject7":"Geography"
+                }
+            ],
+            "exam_results":[
+                {
+                    "English Literature":[{"marks":"95/100","grade":"O"}],
+                    "Mandarin":[{"marks":"85/100","grade":"A+"}],
+                    "Languages and Linguistics":[{"marks":"91/100","grade":"O"}],
+                    "Humanities":[{"marks":"98/100","grade":"O"}],
+                    "Social Studies":[{"marks":"95/100","grade":"O"}],
+                    "Religious Studies":[{"marks":"95/100","grade":"O"}],
+                    "Geography":[{"marks":"92/100","grade":"O"}],
+                    "Overall":[{"marks":"651/700","grade":"O"}]
+                }
+            ],
+            "profile":[
+                {
+                    "my_name":"Diana Prince",
+                    "my_mobile":"(000)22222-11111",
+                    "my_email":"diana.prince@springflowers.com",
+                    "pm_name":"Steve Trevor",
+                    "pm_mobile":"(000)66666-22222",
+                    "pm_email":"steve.trevor@springflowers.com",
+                    "gender":"Female",
+                    "dob":"12/12/2006",
+                    "nationality":"French",
+                    "current_address":"141-B, Wallace Apartments, Linkin Road, London, United Kingdom",
+                    "permanent_address":"12-A, Sector-3, Paris, Frnace",
+                    "guardian_name":"Amaira Philppe",
+                    "guardian_contact":"(000)66666-66666",
+                    "exchange_student":"Yes",
+                    "sin":"SIN1453427189",
+                    "class_name":"12-Omega",
+                    "class_representative":"Asteria Wright",
+                    "subjects":"English Literature, Mandarin, Languages and Linguistics, Humanities, Social Studies, Religious Studies, Geography",
+                    "doa":"19/06/2012"
+                }
+            ]
+        },
+        {
+            "id":"2",
+            "username":"Matt Murdock",
+            "password":"daredevil",
+            "time_table":[
+                {
+                    "mon1":"Law",
+                    "mon2":"Political Science",
+                    "mon3":"Consumer Protection",
+                    "mon4":"Geography",
+                    "mon5":"Accounts",
+                    "tue1":"Social Studies",
+                    "tue2":"English Literature",
+                    "tue3":"Consumer Protection",
+                    "tue4":"Accounts",
+                    "tue5":"Law",
+                    "wed1":"Political Science",
+                    "wed2":"English Literature",
+                    "wed3":"Accounts",
+                    "wed4":"Social Studies",
+                    "wed5":"Law",
+                    "thu1":"Accounts",
+                    "thu2":"Arts and Crafts",
+                    "thu3":"Physical Education",
+                    "thu4":"Political Science",
+                    "thu5":"Geography",
+                    "fri1":"Geography",
+                    "fri2":"Social Studies",
+                    "fri3":"English Literature",
+                    "fri4":"Consumer Protection",
+                    "fri5":"Law"
+                }
+            ],
+            "subjects_selection":[
+                {
+                    "subject1":"English Literature",
+                    "subject2":"Law",
+                    "subject3":"Accounts",
+                    "subject4":"Consumer Protection",
+                    "subject5":"Social Studies",
+                    "subject6":"Political Science",
+                    "subject7":"Geography"
+                }
+            ],
+            "exam_results":[
+                {
+                    "English Literature":[{"marks":"88/100","grade":"A+"}],
+                    "Law":[{"marks":"89/100","grade":"A+"}],
+                    "Accounts":[{"marks":"91/100","grade":"O"}],
+                    "Consumer Protection":[{"marks":"88/100","grade":"A+"}],
+                    "Social Studies":[{"marks":"95/100","grade":"O"}],
+                    "Political Science":[{"marks":"98/100","grade":"O"}],
+                    "Geography":[{"marks":"91/100","grade":"O"}],
+                    "Overall":[{"marks":"640/700","grade":"O"}]
+                }
+            ],
+            "profile":[
+                {
+                    "my_name":"Matt Murdock",
+                    "my_mobile":"(000)11111-11111",
+                    "my_email":"matt.murdock@springflowers.com",
+                    "pm_name":"Vanessa Hightower",
+                    "pm_mobile":"(000)22222-22222",
+                    "pm_email":"vanessa.hightower@springflowers.com",
+                    "gender":"Male",
+                    "dob":"12/12/2006",
+                    "nationality":"American",
+                    "current_address":"125-B, Wallace Apartments, Linkin Road, London, United Kingdom",
+                    "permanent_address":"240, Center Street, NYC, USA",
+                    "guardian_name":"Creed Mcintosh",
+                    "guardian_contact":"(000)77777-77777",
+                    "exchange_student":"Yes",
+                    "sin":"SIN1437663152",
+                    "class_name":"12-Beta",
+                    "class_representative":"Franklin Nelson",
+                    "subjects":"English Literature, Law, Accounts, Consumer Protection, Social Studies, Political Science, Geography",
+                    "doa":"03/06/2022"
+                }
+            ]
+        },
+        {
+            "id":"3",
+            "username":"Clark Kent",
+            "password":"superman",
+            "time_table":[
+                {
+                    "mon1":"Languages and Linguistics",
+                    "mon2":"Journalism",
+                    "mon3":"Life Science",
+                    "mon4":"Humanities",
+                    "mon5":"Performing Arts",
+                    "tue1":"Life Science",
+                    "tue2":"Performing Arts",
+                    "tue3":"Languages and Linguistics",
+                    "tue4":"English Literature",
+                    "tue5":"Arts and Crafts",
+                    "wed1":"Space Science",
+                    "wed2":"Journalism",
+                    "wed3":"English Literature",
+                    "wed4":"Performing Arts",
+                    "wed5":"Physical Education",
+                    "thu1":"Life Science",
+                    "thu2":"Languages and Linguistics",
+                    "thu3":"Humanities",
+                    "thu4":"Space Science",
+                    "thu5":"Journalism",
+                    "fri1":"Space Science",
+                    "fri2":"Humanities",
+                    "fri3":"Languages and Linguistics",
+                    "fri4":"English Literature",
+                    "fri5":"Journalism"
+                }
+            ],
+            "subjects_selection":[
+                {
+                    "subject1":"English Literature",
+                    "subject2":"Languages and Linguistics",
+                    "subject3":"Journalism",
+                    "subject4":"Humanities",
+                    "subject5":"Space Science",
+                    "subject6":"Life Science",
+                    "subject7":"Performing Arts"
+                }
+            ],
+            "exam_results":[
+                {
+                    "English Literature":[{"marks":"75/100","grade":"A"}],
+                    "Languages and Linguistics":[{"marks":"83/100","grade":"A+"}],
+                    "Journalism":[{"marks":"97/100","grade":"O"}],
+                    "Humanities":[{"marks":"86/100","grade":"A+"}],
+                    "Space Science":[{"marks":"87/100","grade":"A+"}],
+                    "Life Science":[{"marks":"84/100","grade":"A+"}],
+                    "Performing Arts":[{"marks":"86/100","grade":"A+"}],
+                    "Overall":[{"marks":"598/700","grade":"A+"}]
+                }
+            ],
+            "profile":[
+                {
+                    "my_name":"Clark Kent",
+                    "my_mobile":"(000)33333-33333",
+                    "my_email":"clark.kent@springflowers.com",
+                    "pm_name":"Lois Lane",
+                    "pm_mobile":"(000)33333-33333",
+                    "pm_email":"lois.lane@springflowers.com",
+                    "gender":"Male",
+                    "dob":"12/12/2009",
+                    "nationality":"American",
+                    "current_address":"27-D, Downtown, London, United Kingdom",
+                    "permanent_address":"227-A, Victor Apartments, Downtown, NYC, USA",
+                    "guardian_name":"Amaira Phillipe",
+                    "guardian_contact":"(000)66666-66666",
+                    "exchange_student":"Yes",
+                    "sin":"SIN1430912345",
+                    "class_name":"9-Beta",
+                    "class_representative":"Bruce Wayne",
+                    "subjects":"English Literature, Languages and Linguistics, Journalism, Humanities, Space Science, Life Science, Performing Arts",
+                    "doa":"03/06/2018"
+                }
+            ]
+        },
+        {
+            "id":"4",
+            "username":"Peter Parker",
+            "password":"spiderman",
+            "time_table":[
+                {
+                    "mon1":"Math",
+                    "mon2":"Engineering",
+                    "mon3":"Visual Arts",
+                    "mon4":"Science",
+                    "mon5":"Physical Education",
+                    "tue1":"Engineering",
+                    "tue2":"Photography",
+                    "tue3":"Math",
+                    "tue4":"Science",
+                    "tue5":"English Literature",
+                    "wed1":"Photography",
+                    "wed2":"Math",
+                    "wed3":"Science",
+                    "wed4":"English Literature",
+                    "wed5":"Information Technology",
+                    "thu1":"Science",
+                    "thu2":"Information Technology",
+                    "thu3":"Visual Arts",
+                    "thu4":"Photography",
+                    "thu5":"Arts and Crafts",
+                    "fri1":"Math",
+                    "fri2":"Information Technology",
+                    "fri3":"Engineering",
+                    "fri4":"Visual Arts",
+                    "fri5":"English Literature"
+                }
+            ],
+            "subjects_selection":[
+                {
+                    "subject1":"English Literature",
+                    "subject2":"Science",
+                    "subject3":"Math",
+                    "subject4":"Information Technology",
+                    "subject5":"Engineering",
+                    "subject6":"Visual Arts",
+                    "subject7":"Photography"
+                }
+            ],
+            "exam_results":[
+                {
+                    "English Literature":[{"marks":"72/100","grade":"A"}],
+                    "Science":[{"marks":"96/100","grade":"O"}],
+                    "Math":[{"marks":"94/100","grade":"O"}],
+                    "Information Technology":[{"marks":"86/100","grade":"A+"}],
+                    "Engineering":[{"marks":"88/100","grade":"A+"}],
+                    "Visual Arts":[{"marks":"89/100","grade":"A+"}],
+                    "Photography":[{"marks":"92/100","grade":"O"}],
+                    "Overall":[{"marks":"617/700","grade":"A+"}]
+                }
+            ],
+            "profile":[
+                {
+                    "my_name":"Peter Parker",
+                    "my_mobile":"(000)11111-22222",
+                    "my_email":"peter.parker@springflowers.com",
+                    "pm_name":"Mary Jane",
+                    "pm_mobile":"(000)11111-33333",
+                    "pm_email":"mary.jane09@springflowers.com",
+                    "gender":"Male",
+                    "dob":"02/02/2010",
+                    "nationality":"American",
+                    "current_address":"28-D, Downtown, London, United Kingdom",
+                    "permanent_address":"134-B, Uncle Ben Apartments, NYC, USA",
+                    "guardian_name":"Aunt May",
+                    "guardian_contact":"(000)11111-44444",
+                    "exchange_student":"Yes",
+                    "sin":"SIN1437352619",
+                    "class_name":"10-Beta",
+                    "class_representative":"Tony Stark",
+                    "subjects":"English Literature, Science, Math, Information Technology, Engineering, Visual Arts, Photography",
+                    "doa":"07/06/2019"
+                }
+            ]
+        }
+    ]
+}
