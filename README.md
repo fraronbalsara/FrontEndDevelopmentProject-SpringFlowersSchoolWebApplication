@@ -1,4 +1,4 @@
-# Front EndDevelopment Project - Spring Flowers School Web Application
+# Front End Development Project - Spring Flowers School Web Application
 
 # Use a live web server to run the application and launch html/index.html
 
