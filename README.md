@@ -4,4 +4,6 @@
 
 # Refer json/student-data.json for login information.
 
+# Refer Project Report for screenshots.
+
 # Developed towards the partial fulfillment of the credit requirement for the course "Front End Development Project", which is part of the Master of Computer Application degree given by Jain University, Bengaluru.
