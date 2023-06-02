@@ -1,9 +1,9 @@
-#Front End Development Project - Spring Flowers School Web Application
+Front End Development Project - Spring Flowers School Web Application
 
-#Use a live web server to run the application and launch html/index.html
+Use a live web server to run the application and launch html/index.html
 
-#Refer json/student-data.json for login information.
+Refer json/student-data.json for login information.
 
-#Refer Project Report for screenshots.
+Refer Project Report for screenshots.
 
-#Developed towards the partial fulfillment of the credit requirement for the course "Front End Development Project", which is part of the Master of Computer Application degree given by Jain University, Bengaluru.
+Developed towards the partial fulfillment of the credit requirement for the course "Front End Development Project", which is part of the Master of Computer Application degree given by Jain University, Bengaluru.
